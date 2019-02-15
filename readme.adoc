@@ -1,0 +1,12 @@
+= Vorträge
+
+In diesem Repository befinden sich meine Vortragsmaterialien.
+Ältere Vorträge habe ich als Powerpoint- oder Keynote-Präsentation
+erstellt. Alle neueren Vorträge liegen als
+https://asciidoctor.org/[Asciidoctor-Dokumente] vor, aus denen
+mit Hilfe von https://asciidoctor.org/docs/asciidoctor-revealjs/[Asciidoctor Reveal.js^]
+HTML 5-Präsentationen erzeugt werden können.
+
+== Vortragsübersicht
+
+* link:jqa-tycaag/[jQAssistant - Treat Your Code As A Graph^]
