@@ -1,0 +1,54 @@
+
+[state=greybox]
+== !
+
+[quote]
+____
+Designing Software is creating
+rules how a system should be build
+and how it should work.
+____
+
+image::pexels-photo-1537008.jpeg[canvas]
+
+[state=greybox]
+== !
+
+[quote]
+____
+*Software Architecture* is whole set of
+rules which must be applied to a system.
+____
+
+
+[state=greybox]
+//[%notitle]
+== What do we expect?
+
+[quote]
+____
+At the end the system build fullfils its purpose
+and is build accordingly to the established
+rules and all rules are kept.
+The implementation is consistent.
+____
+
+== !
+
+image::pexels-photo-258950.jpeg[canvas]
+
+== !
+
+image::n-1436979281clp84.jpg[canvas]
+
+== Why is it so difficult to keep software consistent?
+
+[%step]
+* a
+* b
+
+[background-color="yellow"]
+== !
+
+image::test.svg[]
+

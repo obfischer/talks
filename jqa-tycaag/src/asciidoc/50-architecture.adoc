@@ -1,0 +1,141 @@
+
+== jQAssistant
+
+http://jQAssisant.org
+
+* Open Source
+** GPLv3
+* Current Release
+** Version 1.6.0 (December 2018)
+** initiated in March 2013
+** first stable release in April 2015
+* http://neo4j.org
+* embedded, no additional installation
+
+
+== The idea
+
+. Scan software artifacts and their structures
+. Store information in a database
+. Execute queries
+.. Explore structures
+.. Add high level concepts
+.. Find constraint violations
+. Create reports
+
+[background-color="white"]
+== The Idea implemented
+
+image::scannen-als-process.svg[]
+
+[background-color="white"]
+== The Architecture
+
+image::architektur.svg[]
+
+== Selected Available Scanner Plugins
+
+* Java (Classes, Property files, Service Provider Specification, CDI, EJB, ...)
+* Zip Archive, Jar, War, Ear
+* YAML, JSON, and XML
+* JUnit 3,4, and 5
+* Maven Project
+* M2 Repository
+* RDBMS Schema
+
+== Plugins for public API
+
+* M2 Repository
+* RDBMS Schema
+
+== Third Party Scanner Plugins
+
+* SpotBugs (formerly FindBugs)
+* Checkstyle
+* JaCoCo
+* Git
+* ...
+
+== Getting Started -- Commandline
+
+----
+$ curl -O --remote-name https://jqassistant.org/../1.6.0-distribution.zip
+$ unzip 1.6.0-distribution.zip
+$ cd jqassistant/bin
+----
+
+== Getting Started -- Commandline
+
+.Scan a Jar Archive
+----
+$ ./jqassistant.sh scan -f model.jar
+----
+
+.Scan a War Archive
+----
+$ ./jqassistant.sh scan -f service.war
+----
+
+== Getting Started -- Commandline
+
+.Scan a remote Jar Archive
+----
+$ ./jqassistant.sh scan -u https://example.com/model.jar
+----
+
+== Getting Started -- Commandline
+
+.Scan a Maven Repository
+----
+$ ./jqassistant.sh scan -u \
+  maven:repository::http://mynexus.com/repository/
+----
+
+== Getting Started -- Commandline
+
+.Scan a RDBMS Schema
+----
+$ ./jqassistant.sh scan -u \
+  rdbms:schema::jdbc:oracle:thin:user/scott/tiger@host:1521:sid
+----
+
+== Getting Started -- Commandline
+
+----
+$ ./jqassistant.sh server
+----
+
+Open http://localhost:7474 in your browser
+
+== Getting Started -- Maven
+
+[source,xml]
+----
+<build>
+  <plugins>
+    <plugin>
+        <groupId>com.buschmais.jqassistant</groupId>
+        <artifactId>jqassistant-maven-plugin</artifactId>
+        <version>1.6.0</version>
+    </plugin>
+  </plugins>
+</build>
+----
+
+== Getting Started -- Maven
+
+----
+$ mvn clean install
+$ mvn jqasssistant:scan
+$ mvn jqassistant:server
+----
+
+== !
+
+image::ne04j-console-count.png[canvas]
+
+
+
+
+
+

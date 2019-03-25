@@ -1,0 +1,28 @@
+
+
+[state=bottom]
+// [%notitle]
+== !
+
+Everything can be represented by a graph!
+
+image::bright-bulb-dark-132340.jpg[canvas]
+
+
+[background-color="white"]
+== !
+
+image::familie.svg[]
+
+[background-color="white"]
+== !
+
+image::inheritance.svg[]
+
+
+[background-color="white"]
+== !
+
+image::pc.svg[]
+
+

@@ -1,0 +1,11 @@
+:imagesdir: images
+:title-slide-background-image: trevin-rudy-444172-unsplash.jpg
+:title-slide-transition: zoom
+:title-slide-transition-speed: normal
+:title-slide-number: true
+
+
+= jQAssistant Treat you code as a Graph
+Oliver B. Fischer
+
+JPoint, Moscow, 2019

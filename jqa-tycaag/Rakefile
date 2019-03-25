@@ -1,0 +1,36 @@
+#-- Quellen
+# https://asciidoctor.org/docs/user-manual/#ruby-api-options
+
+
+require 'asciidoctor'
+#require 'tilt'
+
+task default: %w[html5]
+
+MASTER_FILENAME='slides.adoc'
+OUTPUT_FILENAME='index.html'
+
+
+#--------------------------------------------------------------------
+
+task :html5 do
+  puts "Erzeuge die Präsentation aus #{MASTER_FILENAME}"
+
+  begin
+    Asciidoctor.convert_file MASTER_FILENAME,
+                             safe: :safe,
+                             to_file: OUTPUT_FILENAME,
+                             backend: 'revealjs'
+
+    puts "🍀\t#{OUTPUT_FILENAME} erzeugt"
+  rescue StandardError => e
+    puts "🧨\t" +  e.message
+  end
+
+
+end
+
+task :clean do
+
+
+end

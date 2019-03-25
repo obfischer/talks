@@ -1,0 +1,14 @@
+:revealjs_transition: fade
+:backend: revealjs
+:customcss: styles/custom.css
+:source-highlighter: highlightjs
+
+
+include::10-title.adoc[]
+include::20-aboutme.adoc[]
+include::30-problem.adoc[]
+
+include::40-idea.adoc[]
+include::50-architecture.adoc[]
+
+

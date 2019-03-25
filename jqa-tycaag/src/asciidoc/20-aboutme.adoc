@@ -1,0 +1,18 @@
+
+== !
+
+[%step]
+* Oliver Fischer
+* Berlin, Germany
+* Software Engineer
+* [Software|Domain|Business|*] Architect
+* Head of Development at diconium digital solutions in Berlin
+
+== !
+
+[%step]
+* Co-Organiser of JUG Berlin-Brandenburg
+  and the Hackergarten in Berlin
+* Co-Founder and Program Committee of the
+  **B**erlin **E**xpert **D**ays Conference
+* Core Team Member of jQAssistant

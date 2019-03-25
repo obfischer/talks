@@ -1,0 +1,18 @@
+section[data-state="bottom"] p {
+    padding-top: 10em;
+}
+
+section[data-state="greybox"] blockquote {
+    background-color: #555555;
+    padding: 1em;
+}
+
+/**
+ * 21.03.2019, Reveal.js bei 2c5396b 3.7.0
+ * Bilder haben einen Rand mit Schatten. Der Selektor unten entfernt diesen Schatten.
+ *
+ **/
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
