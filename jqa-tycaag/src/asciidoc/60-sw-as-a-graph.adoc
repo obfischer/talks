@@ -1,0 +1,73 @@
+== Software As A Graph
+
+=== !
+
+==== **All we need is...**
+
+* Nodes
+* Labels
+* Properties
+* Relationships
+
+=== !
+
+==== **Modelling is just**
+
+* Taking a pen
+* Draw the structures on a whiteboard
+
+
+=== !
+
+==== **We don't need**
+
+* Foreign keys
+* Tables and schemas
+* Deep knowledge in graph theory
+
+
+[background-color="white"]
+== !
+
+image::maven-project.svg[]
+
+[background-color="white"]
+
+== !
+
+image::java-annotation.svg[]
+
+=== !
+
+**Explore an application using queries**
+
+Which class extends from another class?
+
+image::extends.svg[]
+
+**Let's concert this to ASCII art...**
+
+- `()` as node
+- `-[]->` as directed relationship
+
+=== !
+
+image::extends.svg[]
+
+[%step]
+* `()-[]->()`
+* `(c1)-[]->(c2)`
+* `(c1)-[:EXTENDS]->(c2)`
+* `(c1:Class)-[:EXTENDS]->(c2:Type)`
+
+=== !
+
+image::extends.svg[]
+
+[source,cypher]
+----
+MATCH
+  (c1:Class)-[:EXTENDS]->(c1:Type)
+RETURN
+  c1.fqn, c2.fqn
+----

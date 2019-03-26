@@ -10,5 +10,6 @@ include::30-problem.adoc[]
 
 include::40-idea.adoc[]
 include::50-architecture.adoc[]
+include::60-sw-as-a-graph.adoc[]
 
 

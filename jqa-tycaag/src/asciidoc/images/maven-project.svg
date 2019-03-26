@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="818.326" height="459.535" viewBox="0, 0, 818.326, 459.535">
+  <g id="Maven_Project" transform="translate(-9.931, -9.282)">
+    <path d="M42.429,39.988 C31,41.522 18.675,46.564 14.519,58.34 C2.271,93.043 46.987,113.055 68.428,83.574 C84,62.162 64.571,25.774 42.302,39.478" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M140.242,139.702 C128.813,141.236 116.488,146.278 112.332,158.054 C100.084,192.757 144.8,212.769 166.241,183.288 C181.813,161.876 162.385,125.488 140.115,139.192" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M299.235,139.202 C287.805,140.736 275.48,145.778 271.324,157.554 C259.076,192.257 303.792,212.269 325.233,182.788 C340.806,161.376 321.377,124.988 299.107,138.692" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M460.727,138.702 C449.297,140.236 436.972,145.278 432.816,157.054 C420.568,191.757 465.284,211.769 486.725,182.288 C502.298,160.876 482.869,124.488 460.599,138.192" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M706.35,257.683 C694.921,259.218 682.596,264.26 678.44,276.035 C666.192,310.738 710.908,330.751 732.349,301.269 C747.922,279.857 728.493,243.469 706.223,257.174" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M728.309,409.456 C716.88,410.991 704.555,416.033 700.399,427.808 C688.151,462.511 732.867,482.524 754.308,453.042 C769.88,431.63 750.451,395.242 728.182,408.947" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M622.62,140.202 C611.19,141.736 598.865,146.778 594.709,158.554 C582.461,193.257 627.177,213.269 648.618,183.788 C664.191,162.376 644.762,125.988 622.492,139.692" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <path d="M63.406,92.661 C82.981,106.376 102.006,121.278 119.241,137.84" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M122.704,130.597 C121.733,140.179 124.873,144.848 113.844,141.988" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M175.554,167.264 C203.487,165.683 231.79,165.371 259.679,167.474" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M257.522,159.66 C263.67,167.735 269.963,169.406 257.798,174.089" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M338.426,166.264 C366.359,164.683 394.662,164.371 422.551,166.474" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M420.394,158.66 C426.542,166.735 432.836,168.406 420.67,173.089" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M496.679,167.764 C524.455,166.183 552.599,165.871 580.332,167.974" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M578.187,160.16 C584.3,168.235 590.559,169.906 578.461,174.589" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M714.755,324.029 C720.483,347.408 725.016,371.32 727.109,395.3" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M734.482,392.117 C727.448,398.725 726.742,404.345 720.313,394.856" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <path d="M643.872,198.903 C661.973,214.769 679.402,231.756 694.871,250.2" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M699.085,243.363 C697.114,252.811 699.759,257.819 689.05,253.734" fill-opacity="0" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g>
+      <g>
+        <path d="M82.406,36.473 L144.56,36.473 L144.56,58.077 L82.406,58.077 L82.406,36.473 z" fill="#999999"/>
+        <path d="M82.406,36.473 L144.56,36.473 L144.56,58.077 L82.406,58.077 L82.406,36.473 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M122.291,72.369 L122.291,72.369 L122.291,72.701 L122.291,72.701 L122.291,72.369 z" fill="#424242"/>
+        <path d="M122.291,72.369 L122.291,72.369 L122.291,72.701 L122.291,72.701 L122.291,72.369 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 114.408, 47.087)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Project</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M82.406,10.782 L144.56,10.782 L144.56,32.386 L82.406,32.386 L82.406,10.782 z" fill="#999999"/>
+        <path d="M82.406,10.782 L144.56,10.782 L144.56,32.386 L82.406,32.386 L82.406,10.782 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M122.291,46.678 L122.291,46.678 L122.291,47.011 L122.291,47.011 L122.291,46.678 z" fill="#424242"/>
+        <path d="M122.291,46.678 L122.291,46.678 L122.291,47.011 L122.291,47.011 L122.291,46.678 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 114.408, 21.396)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Maven</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M161.96,109.234 L224.114,109.234 L224.114,130.838 L161.96,130.838 L161.96,109.234 z" fill="#999999"/>
+        <path d="M161.96,109.234 L224.114,109.234 L224.114,130.838 L161.96,130.838 L161.96,109.234 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M201.845,145.13 L201.845,145.13 L201.845,145.463 L201.845,145.463 L201.845,145.13 z" fill="#424242"/>
+        <path d="M201.845,145.13 L201.845,145.13 L201.845,145.463 L201.845,145.463 L201.845,145.13 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 193.962, 119.848)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Artifact</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M305.873,109.234 L368.027,109.234 L368.027,130.838 L305.873,130.838 L305.873,109.234 z" fill="#999999"/>
+        <path d="M305.873,109.234 L368.027,109.234 L368.027,130.838 L305.873,130.838 L305.873,109.234 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M345.758,145.13 L345.758,145.13 L345.758,145.463 L345.758,145.463 L345.758,145.13 z" fill="#424242"/>
+        <path d="M345.758,145.13 L345.758,145.13 L345.758,145.463 L345.758,145.463 L345.758,145.13 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 337.875, 119.848)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Package</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M459.872,109.234 L522.026,109.234 L522.026,130.838 L459.872,130.838 L459.872,109.234 z" fill="#999999"/>
+        <path d="M459.872,109.234 L522.026,109.234 L522.026,130.838 L459.872,130.838 L459.872,109.234 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M499.757,145.13 L499.757,145.13 L499.757,145.463 L499.757,145.463 L499.757,145.13 z" fill="#424242"/>
+        <path d="M499.757,145.13 L499.757,145.13 L499.757,145.463 L499.757,145.463 L499.757,145.13 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 491.874, 119.848)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Package</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M617.737,109.234 L679.891,109.234 L679.891,130.838 L617.737,130.838 L617.737,109.234 z" fill="#999999"/>
+        <path d="M617.737,109.234 L679.891,109.234 L679.891,130.838 L617.737,130.838 L617.737,109.234 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M657.622,145.13 L657.622,145.13 L657.622,145.463 L657.622,145.463 L657.622,145.13 z" fill="#424242"/>
+        <path d="M657.622,145.13 L657.622,145.13 L657.622,145.463 L657.622,145.463 L657.622,145.13 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 649.739, 119.848)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Package</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M745.103,251.668 L807.256,251.668 L807.256,273.272 L745.103,273.272 L745.103,251.668 z" fill="#999999"/>
+        <path d="M745.103,251.668 L807.256,251.668 L807.256,273.272 L745.103,273.272 L745.103,251.668 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M784.987,287.564 L784.987,287.564 L784.987,287.897 L784.987,287.897 L784.987,287.564 z" fill="#424242"/>
+        <path d="M784.987,287.564 L784.987,287.564 L784.987,287.897 L784.987,287.897 L784.987,287.564 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 777.104, 262.282)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Package</tspan>
+      </text>
+    </g>
+    <g>
+      <g>
+        <path d="M765.603,397.403 L827.756,397.403 L827.756,419.007 L765.603,419.007 L765.603,397.403 z" fill="#999999"/>
+        <path d="M765.603,397.403 L827.756,397.403 L827.756,419.007 L765.603,419.007 L765.603,397.403 z" fill-opacity="0" stroke="#999999" stroke-width="1"/>
+      </g>
+      <g>
+        <path d="M805.487,433.3 L805.487,433.3 L805.487,433.632 L805.487,433.632 L805.487,433.3 z" fill="#424242"/>
+        <path d="M805.487,433.3 L805.487,433.3 L805.487,433.632 L805.487,433.632 L805.487,433.3 z" fill-opacity="0" stroke="#424242" stroke-width="1"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 797.604, 408.018)">
+        <tspan x="-27.519" y="1.993" font-family="HelveticaNeue" font-size="12" fill="#FFFFFF">Package</tspan>
+      </text>
+    </g>
+    <text transform="matrix(1, 0, 0, 1, 70, 123)">
+      <tspan x="-22.035" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CREATES</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 215.75, 178.5)">
+      <tspan x="-24.815" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CONTAINS</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 379.25, 178)">
+      <tspan x="-24.815" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CONTAINS</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 536.25, 179.5)">
+      <tspan x="-24.815" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CONTAINS</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 636.25, 229.5)">
+      <tspan x="-24.815" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CONTAINS</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 151.25, 74.25)">
+      <tspan x="-70.75" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: petclinic</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 346.25, 211.25)">
+      <tspan x="-70.75" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: org</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 508.75, 209.25)">
+      <tspan x="-70.75" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: springframework</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 629, 289.75)">
+      <tspan x="-25.3" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: petclinic</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 650, 440.25)">
+      <tspan x="-15.68" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: model</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 712, 175.75)">
+      <tspan x="-42.5" y="1.75" font-family="HelveticaNeue" font-size="10" fill="#39383D">name: sample</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 687.75, 361)">
+      <tspan x="-24.815" y="3" font-family="HelveticaNeue" font-size="10" fill="#8D1616">CONTAINS</tspan>
+    </text>
+  </g>
+</svg>

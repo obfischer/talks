@@ -47,8 +47,4 @@ image::n-1436979281clp84.jpg[canvas]
 * a
 * b
 
-[background-color="yellow"]
-== !
-
-image::test.svg[]
 
