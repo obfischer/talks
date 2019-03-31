@@ -6,7 +6,7 @@
 
 Analysing Git repositories with jQAssistant
 
-== Your Code as a Crime Scene
+=== Your Code as a Crime Scene
 
 //[.right]
 image::atcrime_xlargecover.jpg[widht="110%"]
@@ -14,7 +14,7 @@ image::atcrime_xlargecover.jpg[widht="110%"]
 Adam Tornhill, 2015, The Pragmatic Programmer
 
 [background-color="white"]
-== The Git History Is a Graph
+=== The Git History Is a Graph
 
 image::git-graph.svg[]
 
@@ -26,42 +26,64 @@ image::git-graph.svg[]
 // * Commits with more than one parent relation are merge commits.
 // * A tag references a commit
 
-== !
+=== !
 
+Who did the last 20 commits in the repository?
+
+[source]
 ----
 MATCH      (a:Author)-[:COMMITTED]->(c:Commit)
 RETURN     a.name, c.message
 ORDER BY   c.date desc       LIMIT 20
 ----
 
+=== !
+
 image::01_AuthorAndCommit.png[]
 
-== !
+=== !
 
+How many commits committed every author?
+
+[source]
 ----
 MATCH       (a:Author)-[:COMMITTED]->(c:Commit)
 RETURN      a.name, count(c) as commits
 ORDER BY    commits DESC
 ----
 
+=== !
+
 image::02_CommitCountPerAuthor.png[]
 
-== !
+=== !
 
+How many changes commits an author usually in a
+single commit?
+
+[source]
 ----
 MATCH       (a:Author)-[:COMMITTED]->(c:Commit)
-            -[:CONTAINS_CHANGE]->(:Change) -[:MODIFIES]->(file:File)
+            -[:CONTAINS_CHANGE]->(:Change)
+            -[:MODIFIES]->(file:File)
 WHERE       NOT c:Merge
-WITH        a, count(distinct c) as commits, count(file) as files
-RETURN      a.name, (toFloat(sum(files))/toFloat(commits)) as filesPerCommit, commits
+WITH        a, count(distinct c) AS commits,
+            count(file) AS files
+RETURN      a.name, (toFloat(sum(files))/toFloat(commits))
+            AS filesPerCommit, commits
 ORDER BY    filesPerCommit DESC
 ----
+
+=== !
 
 image::06_ChangedFilesPerCommitAndAuthor.png[]
 
 
-== !
+=== !
 
+Do whe have an exclusive ownership on some files?
+
+[source]
 ----
 MATCH       (author:Author)-[:COMMITTED]->(c:Commit)
             -[:CONTAINS_CHANGE]->()-[:MODIFIES]->(f)
@@ -72,10 +94,17 @@ UNWIND      authors as author
 RETURN      author.name, collect(f.relativePath)
 ----
 
-== !
+=== !
 
 image::10_FilesOwnedByOneAuthor.png[]
 
+=== Conclusion
+
+* Git history contains much more information
+  than visible at the first glance
+* It is valuable to combine data from
+  different sources (Git, Java code, ...)
+* You musk simply ask the right question
 
 
 
