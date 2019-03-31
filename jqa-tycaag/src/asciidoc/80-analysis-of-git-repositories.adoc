@@ -1,0 +1,83 @@
+//
+//
+//
+
+== Shadows of The Past
+
+Analysing Git repositories with jQAssistant
+
+== Your Code as a Crime Scene
+
+//[.right]
+image::atcrime_xlargecover.jpg[widht="110%"]
+
+Adam Tornhill, 2015, The Pragmatic Programmer
+
+[background-color="white"]
+== The Git History Is a Graph
+
+image::git-graph.svg[]
+
+
+// * A commit belongs to an author and contains one or more changes where each one modifies a file.
+// * All commits except the initial one have at least one relation to a parent commit.
+// * A branch is represented by a node which references the last commit, i.e. the head of the branch.
+// * A parent commit with more than one child indicates that a new branch has been created.
+// * Commits with more than one parent relation are merge commits.
+// * A tag references a commit
+
+== !
+
+----
+MATCH      (a:Author)-[:COMMITTED]->(c:Commit)
+RETURN     a.name, c.message
+ORDER BY   c.date desc       LIMIT 20
+----
+
+image::01_AuthorAndCommit.png[]
+
+== !
+
+----
+MATCH       (a:Author)-[:COMMITTED]->(c:Commit)
+RETURN      a.name, count(c) as commits
+ORDER BY    commits DESC
+----
+
+image::02_CommitCountPerAuthor.png[]
+
+== !
+
+----
+MATCH       (a:Author)-[:COMMITTED]->(c:Commit)
+            -[:CONTAINS_CHANGE]->(:Change) -[:MODIFIES]->(file:File)
+WHERE       NOT c:Merge
+WITH        a, count(distinct c) as commits, count(file) as files
+RETURN      a.name, (toFloat(sum(files))/toFloat(commits)) as filesPerCommit, commits
+ORDER BY    filesPerCommit DESC
+----
+
+image::06_ChangedFilesPerCommitAndAuthor.png[]
+
+
+== !
+
+----
+MATCH       (author:Author)-[:COMMITTED]->(c:Commit)
+            -[:CONTAINS_CHANGE]->()-[:MODIFIES]->(f)
+WHERE NOT   c:Merge
+WITH        collect(author) as authors, f
+WHERE       size(authors)=1
+UNWIND      authors as author
+RETURN      author.name, collect(f.relativePath)
+----
+
+== !
+
+image::10_FilesOwnedByOneAuthor.png[]
+
+
+
+
+
+

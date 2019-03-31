@@ -12,4 +12,5 @@ include::40-idea.adoc[]
 include::50-architecture.adoc[]
 include::60-sw-as-a-graph.adoc[]
 
+include::80-analysis-of-git-repositories.adoc[]
 
