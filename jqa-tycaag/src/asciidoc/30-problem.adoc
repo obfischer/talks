@@ -1,6 +1,7 @@
 
 [state=greybox]
-== !
+[%notitle]
+== The Problem with Software
 
 [quote]
 ____
@@ -12,7 +13,7 @@ ____
 image::pexels-photo-1537008.jpeg[canvas]
 
 [state=greybox]
-== !
+=== !
 
 [quote]
 ____
@@ -20,10 +21,30 @@ ____
 rules which must be applied to a system.
 ____
 
+=== Rules can be simple
+
+IMPORTANT: Each Git repository must contain a `readme.adoc`
+           with a short project description.
+
+=== Rules can be complex
+
+IMPORTANT: All configuration classes in a Spring project
+           must be the `xyz.configuration` package, must
+           be validated, their name must end with `Properties` and
+           start with the prefix of the properties to bind to
+           the concrete instance of the class.
+
+[source,java]
+----
+@ConfigurationProperties("tomcat")
+@Validated
+public class TomcatProperties {
+}
+----
 
 [state=greybox]
 //[%notitle]
-== What do we expect?
+=== What do we expect?
 
 [quote]
 ____
@@ -33,18 +54,22 @@ rules and all rules are kept.
 The implementation is consistent.
 ____
 
-== !
+=== !
 
 image::pexels-photo-258950.jpeg[canvas]
 
-== !
+=== !
 
 image::n-1436979281clp84.jpg[canvas]
 
-== Why is it so difficult to keep software consistent?
+=== Why is it so difficult to keep software consistent?
 
 [%step]
-* a
-* b
+* Design is only implicit or no design at all
+* Erodes by time
+* Different programmers - different approaches
+* No maintenance
+* New and _modern_ approaches (Software development is like the fashion business)
+* No holistic/integrated tooling
 
 
