@@ -1,25 +1,25 @@
 == Software As A Graph
 
-=== !
+// === !
 
-==== **All we need is...**
+=== **All we need is...**
 
 * Nodes
 * Labels
 * Properties
 * Relationships
 
-=== !
+// === !
 
-==== **Modelling is just**
+=== **Modelling is just**
 
 * Taking a pen
 * Draw the structures on a whiteboard
 
 
-=== !
+// === !
 
-==== **We don't need**
+=== **We don't need**
 
 * Foreign keys
 * Tables and schemas
@@ -27,15 +27,27 @@
 
 
 [background-color="white"]
-== !
+=== !
 
 image::maven-project.svg[]
 
 [background-color="white"]
 
-== !
+=== !
 
 image::java-annotation.svg[]
+
+=== Cypher
+
+* Query language for Graph databases
+* Developed by Neo4J for their graph database
+* Now specified by the openCypher project
+* Support for all CRUD operations
+* In use by:
+** Neo4J
+** SAP HANA Graph
+** Upcoming Apache Spark version 3.0
+** ...
 
 === !
 
@@ -71,3 +83,5 @@ MATCH
 RETURN
   c1.fqn, c2.fqn
 ----
+
+
