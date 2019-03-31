@@ -1,0 +1,116 @@
+//
+//
+//
+
+== Documenting Software Architecture
+
+=== How It is mostly done
+
+* ignored
+* could be done later
+* Word, Excel, Powerpoint
+* Wiki
+* Tools as Enterprise Architect
+
+=== Expected properties
+
+* based on the reality
+* up-to-date
+* no limitations of content and layout
+* nice and consistent layout
+* easy to maintain
+* easy to automate
+
+=== What do we need?
+
+**AsciiDoctor** for writing the documentation including
+text, tables, lists, headlines, and various styles.
+
+[source,asciidoc]
+----
+= The System documentation
+
+A **system is a group of interacting or
+interrelated entities** that form a unified whole!
+
+[options="header"]
+|===
+| Name          | Value           | Purpose |
+----
+
+=== What do we need?
+
+**PlantUML** to draw the various UML diagrams.
+
+[plantuml]
+----
+@startuml
+skinparam monochrome true
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+----
+
+=== What do we need?
+
+**jQAssistant** to gather all relevant information
+from various sources, as source code, databases,
+configuration files, ...
+
+
+[source,xml]
+----
+<dependency>
+  <groupId>org.jqassistant.contrib.plugin</groupId>
+  <artifactId>jqassistant-asciidoc-report-plugin</artifactId>
+  <version>1.6.0</version>
+</dependency>
+----
+
+=== How does it work?
+
+[plantuml]
+----
+@startuml
+
+start
+
+:Write the documentation;
+note left
+    The documentation must be written
+    in Asciidoctor; rules can be embedded
+    directly in the documents
+end note
+
+while (Generate documentation?)
+    :Scan all artifacts;
+    :Analyse the graph;
+    :Write report;
+    note left
+        The report is generated based
+        on the Asciidoctor documents;
+        results of querys will be embedded
+    end note
+endwhile
+
+stop
+
+@enduml
+----
+
+[state=greybox]
+=== !
+
+image::photo-1461749280684-dccba630e2f6.jpg[canvas]
+
+[quote]
+____
+Live Demonstration
+____
+
+
+
+
+
