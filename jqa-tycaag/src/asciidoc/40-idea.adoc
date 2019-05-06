@@ -1,8 +1,12 @@
+//
+//
+//
 
+== The Idea
 
 [state=bottom]
 // [%notitle]
-== !
+=== !
 
 Everything can be represented by a graph!
 
@@ -10,19 +14,32 @@ image::bright-bulb-dark-132340.jpg[canvas]
 
 
 [background-color="white"]
-== !
+=== !
 
 image::familie.svg[]
 
 [background-color="white"]
-== !
+=== !
 
 image::inheritance.svg[]
 
 
 [background-color="white"]
-== !
+=== !
 
 image::pc.svg[]
+
+[state=greybox]
+=== !
+
+image::pexels-photo-373543.jpeg[canvas]
+
+[quote]
+____
+If we could find a graph representation
+for each software artifact and link
+them with each other, we could search
+for much ????
+____
 
 
